@@ -34,16 +34,16 @@ nav{
     margin: 0 20px 0 0;
     gap: 30px;
 }
-ul{
+nav ul{
     display: flex;
     gap: 55px;
 }
-ul li{
+nav ul li{
     list-style: none;
     border-bottom: 3px solid transparent;
     transition: all 0.2s ease;
 }
-ul li:hover{
+nav ul li:hover{
     border-bottom: 3px solid rgb(0, 132, 255);
 }
 .perfil img{
@@ -76,8 +76,8 @@ span{
 }
 .carousel-item img {
     display: block;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 1366px;
 }
 .carousel-control {
     background: rgba(0, 0, 0, 0.28);
@@ -155,6 +155,7 @@ span{
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
+/*-==SECTION==-*/
 .section{
     height: 300px;
     display: flex;
@@ -165,10 +166,11 @@ span{
 .section div{
     height: 250px;
     width: 250px;
-    background-color: crimson;
+    background-color: rgb(228, 228, 228);
     border-radius: 50%;
 }
 
+/*-==PRODUCT SECTION==-*/
 .products-setion{
     display: flex;
     width: 100vw;
@@ -192,5 +194,19 @@ span{
     height: 350px;
     width: 350px;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgb(228, 228, 228);
+}
+
+.footer{
+    margin-top: 125px;
+    background-color: rgb(0, 132, 255);
+    height: 150px;
+}
+.footer ul{
+    padding-top: 25px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
 }
