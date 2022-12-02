@@ -181,6 +181,7 @@ span{
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
+    text-decoration: underline;
 }
 .products{
     display: flex;
@@ -190,12 +191,34 @@ span{
     padding-top: 50px;
     gap: 65px;
 }
-.products div{
+.products .product{
     height: 350px;
     width: 350px;
+    flex-direction: column;
     border-radius: 5px;
-    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    box-shadow: 1px 1px 10px rgb(153, 153, 153);
 }
+.product div{
+    text-align: center;
+}
+.product img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: auto;
+    right: auto;
+} 
+.product h5{
+    color: #000;
+    font-size: 25px;
+}
+.product p{
+    color: #000;
+}
+
 
 .footer{
     margin-top: 125px;
@@ -210,3 +233,4 @@ span{
     align-items: center;
     list-style: none;
 }
+
