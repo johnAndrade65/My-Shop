@@ -1,6 +1,6 @@
 ﻿# My-Shop
-<h5>EN - Own website still in creation process..</h5>
-<h5>PT - Site proprio ainda em processo de criação..</h5>
+<h5>EN - Own website still in creation process..🛠</h5>
+<h5>PT - Site proprio ainda em processo de criação..🛠</h5>
 <h4>Deploy: https://johnandrade65.github.io/My-Shop/</h4>
 ﻿<div style="display: inline_block"><br/>
   <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
