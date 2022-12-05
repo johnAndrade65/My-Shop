@@ -7,6 +7,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-decoration: none;
     
 }
 body{
@@ -183,6 +185,11 @@ span{
     font-size: 50px;
     text-decoration: underline;
 }
+.products-setion span{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    text-decoration: underline;
+}
 .products{
     display: flex;
     justify-content: center;
@@ -227,10 +234,12 @@ span{
 }
 .footer ul{
     padding-top: 25px;
-    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
+}
+.footer ul li{
+    color: #fff;
 }
 
