@@ -12,7 +12,11 @@
     
 }
 body{
-    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
     overflow-x: hidden;
 }
 
@@ -229,11 +233,12 @@ span{
     color: #000;
 }
 
-
+/*-==FOOTER==-*/
 .footer{
     margin-top: 125px;
     background-color: rgb(0, 132, 255);
     height: 150px;
+    width: 100vw;
 }
 .footer ul{
     padding-top: 25px;
@@ -246,3 +251,44 @@ span{
     color: #fff;
 }
 
+/*-==ACCOUNT==-*/
+.wrapper{
+    width: 1000px;
+    height: 600px;
+    margin-top: 30px;
+    background-color: #00b7ff;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper img{
+    width: 100px;
+    position: absolute;
+    top: 90px;
+}
+.account{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background: #0099ff;
+    border: 2px solid rgb(0, 140, 255);
+}
+.account ul{
+    list-style: none;
+    padding: 5px 200px;
+}
+.account ul li{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 200px;
+    text-align: center;
+}
+.account ul li:hover{
+    color: #fff;
+    background-color: #00b7ff;
+    cursor: pointer;
+}
