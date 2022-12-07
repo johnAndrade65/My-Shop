@@ -232,10 +232,22 @@ span{
 .product p{
     color: #000;
 }
+.products button{
+    color: #fff;
+    background: #428bca;
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.products button:hover{
+    background: #0099ff;
+}
 
 /*-==FOOTER==-*/
 .footer{
-    margin-top: 125px;
+    margin-top: 65px;
     background-color: rgb(0, 132, 255);
     height: 150px;
     width: 100vw;
@@ -256,12 +268,19 @@ span{
     width: 1000px;
     height: 600px;
     margin-top: 30px;
-    background: #f0f0f0;
-    border: 2px solid rgb(0, 153, 255);
+    background: #fafafa;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.wrapper .back{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    top: 1px;
+    cursor: pointer;
 }
 .wrapper img{
     width: 100px;
@@ -275,7 +294,7 @@ span{
     align-items: center;
     border-radius: 5px;
     justify-content: center;
-    background: #d3d3d3;
+    background: #f7f7f7;
     border: 2px solid rgb(0, 140, 255);
 }
 .account ul{
@@ -283,7 +302,7 @@ span{
     padding: 5px 200px;
 }
 .account ul li{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 140, 255);
     padding: 5px 200px;
     text-align: center;
 }
@@ -291,4 +310,21 @@ span{
     color: #fff;
     background-color: #00b7ff;
     cursor: pointer;
+}
+
+/*-==CONTACT==-*/
+.contact{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact h1{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+.contact span{
+    color: #0099ff;
 }
